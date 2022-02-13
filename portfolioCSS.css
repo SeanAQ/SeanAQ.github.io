@@ -1,0 +1,348 @@
+body
+{
+    height: 100vh;
+    margin:0; padding:0;
+    background: linear-gradient(-255deg, #e76f51,#f4a261)fixed ;
+}
+
+#menuBar
+{
+    height: 70px;
+}
+#logo
+{
+    display: inline;
+    color: white;
+    font-family: Consolas, monaco, monospace;
+    margin-left: 11.5%;
+    margin-top: 1.5vh;
+    font-size: 2.5vw;
+    position: fixed;
+    list-style: none;
+    text-decoration: none;
+    border: .3vw solid white;
+    padding-right: 5px;
+    padding-left: 5px;
+    z-index: 1030;
+}
+
+#logo:hover
+{
+    color: black;
+    border-color: black;
+}
+#menuList
+{
+    width: 60vw;
+    display:inline;
+    margin-top: 1.5vw;
+    justify-content: center;
+    padding-left: 35vw;
+    position: absolute;
+}
+#menuList li
+{
+    display: inline;
+    list-style: none;
+    margin-left: 5.8vw;
+    margin-right: 5.8vw;
+    margin-bottom: 0;
+}
+#menuList a
+{
+    font-family: Consolas, monaco, monospace;
+    color: white;
+    font-size: 2vw;
+    text-decoration: none;
+    padding-bottom: 2px;
+}
+
+#abMenuItem:hover
+{
+    color: black;
+    border-bottom: medium solid black;
+}
+
+#projMenuItem:hover
+{
+    color: black;
+    border-bottom: medium solid black;
+}
+
+#conMenuItem:hover
+{
+    color: black;
+    border-bottom: medium solid black;
+}
+
+
+#home
+{
+    height: 80vh;
+    width: 100vw;
+}
+
+#home #mePic
+{
+    position: relative;
+    display: inline;
+    margin-top: 8%;
+    margin-left: 8.5%;
+    border-radius: 50%;
+    max-height: 21vw;
+    max-width: 21vw;
+    float: left;
+    filter: drop-shadow(0 0 2rem crimson);
+}
+
+#home #mainHeader
+{
+    margin-top: 11.5%;
+    vertical-align: top;
+    margin-left: 11%;
+    float: left;
+    display: inline;
+}
+#home #mainHeader h1
+{
+    font-family: Consolas, monaco, monospace;
+    color: white;
+    text-align: center;
+    font-size: 2.2vw;
+}
+#home #mainHeader h2
+{
+    font-family: Consolas, monaco, monospace;
+    color: white;
+    text-align: center;
+    font-size: 1.6vw;
+}
+
+.title
+{
+    font-family: Consolas, monaco, monospace;
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding-top: 2%;
+    z-index: 10;
+    padding-bottom: 10px;
+    font-size: 2.3vw;
+}
+
+
+#about
+{
+    height: 77vh;
+    max-height: 55vw;
+    width: 100vw;
+    padding: 0;
+    background: #94d2bd fixed;
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+    margin-bottom: -3%;
+}
+
+#about #aCont
+{
+    height: auto;
+    max-height: 55vw;
+    width: auto;
+}
+
+#abContent
+{
+    margin: auto;
+    height:auto;
+    max-height: 55vw;
+    width: auto;
+    horiz-align: center;
+}
+
+#boutMoi
+{
+    height: auto;
+    max-height: 55vw;
+    margin:auto;
+    margin-top: 3vh;
+    font-family: Consolas, monaco, monospace;
+    color: white;
+    text-align: center;
+    width: 85vw;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30vw;
+    width: 36px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    margin: 5%;
+}
+
+
+.fa:hover
+{
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-github
+{
+    background: #967bb6;
+    color: white;
+
+}
+
+.fa-twitch
+{
+    background: #6441A4;
+    color: white;
+}
+
+#CV
+{
+    text-align: center;
+    font-family: Consolas, monaco, monospace;
+    font-size: 4vh;
+    background: #000000;
+    color: white;
+}
+
+#socialLinks
+{
+    margin:auto;
+    margin-top: 3vw;
+    width: 40vw;
+    text-align: center;
+}
+
+#boutMoi #whatIdo
+{
+    margin-top: 1%;
+}
+.boutHR
+{
+    display: block;
+    height: 1vh;
+    border: 0;
+    border-top: 3px solid;
+    color: white;
+}
+
+
+
+#projects
+{
+    height:90vh;
+    max-height: 70vh;
+    width: 100vw;
+    padding: 0;
+    background: #e9c46a fixed;
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+    margin-bottom: -3%;
+    text-align: center;
+}
+
+#temp
+{
+    margin-top: 20vh;
+    font-family: Consolas, monaco, monospace;
+    color: white;
+    font-size: 4vw;
+    background-color: black;
+}
+
+#contact
+{
+    height: 90vh;
+    width: 100vw;
+    background: #2b2d42 fixed;
+    border-top-left-radius: 4%;
+    border-top-right-radius: 4%;
+    position: relative;
+}
+
+#contactMe
+{
+    margin: auto;
+    margin-top: 5vh;
+    height: 60vh;
+    width: 80vw;
+    text-align: center;
+    border-radius: 20px;
+}
+
+
+.field
+{
+    margin: auto;
+    margin-top:3%;
+    float: left;
+    margin-bottom: 2%;
+    width: 100%;
+}
+.label
+{
+    width: 100%;
+    font-family: Consolas, monaco, monospace;
+    color: white;
+    margin-bottom: 50%;
+}
+#subject
+{
+    border-style: none;
+    color: white;
+    background-color: #555555;
+    width: 80%;
+    padding-top: .5%;
+    padding-bottom: .5%;
+    border-radius: 20px;
+}
+
+#body
+{
+    margin-top: 10px;
+    border-style: none;
+    height: 50%;
+    width: 95%;
+    padding-bottom: 20%;
+    background-color: #555555;
+    color: white;
+    border-radius: 20px;
+}
+
+.button
+{
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    background-color: #555555;
+    border-radius: 20px;
+    margin-top: -5px;
+}
+
+#contact #footer
+{
+    font-family: Consolas, monaco, monospace;
+    color: white;
+    width: 100vw;
+    position: absolute;
+    bottom:0;
+    text-align: center;
+}
+
+
+
+
+
